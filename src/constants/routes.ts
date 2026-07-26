@@ -1,0 +1,16 @@
+export const ROUTES = {
+  home: '/',
+  login: '/login',
+  register: '/register',
+  dashboard: '/app',
+  goals: '/app/goals',
+  learning: '/app/learning',
+  notes: '/app/notes',
+  analytics: '/app/analytics',
+  planner: '/app/planner',
+  github: '/app/github',
+  leetcode: '/app/leetcode',
+  assistant: '/app/assistant',
+  settings: '/app/settings',
+  profile: '/app/profile',
+} as const;
