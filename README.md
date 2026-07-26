@@ -1,105 +1,436 @@
-# DevVerse — Developer Operating System
+# 🚀 DevVerse — The Developer Operating System
 
-A frontend-only, glassmorphic command center for developers: goals, learning tracking, markdown notes, and real analytics — all persisted locally in your browser. No backend, no accounts on a server, no tracking.
+<p align="center">
+  <strong>A beautiful, frontend-only productivity dashboard built for developers.</strong><br>
+  Track goals, learning, notes, analytics, and daily progress — all with a modern glassmorphic UI and zero backend.
+</p>
 
-![Status](https://img.shields.io/badge/status-Phase%201%20complete-00E5FF?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-6C63FF?style=flat-square)
+<p align="center">
+  <a href="https://your-live-demo.vercel.app"><img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-00E5FF?style=for-the-badge" /></a>
+  <a href="https://github.com/yourusername/devverse"><img src="https://img.shields.io/badge/GitHub-Repository-6C63FF?style=for-the-badge&logo=github" /></a>
+</p>
 
-<!-- Add real screenshots here once you have the app running locally -->
-<!-- ![DevVerse dashboard](./docs/screenshot-dashboard.png) -->
+<p align="center">
 
-## What's included (Phase 1 — fully functional)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square\&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square\&logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-Phase_1_Complete-00E5FF?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
 
-- **Landing page** — animated hero with typewriter effect, orbiting module graphic, features, testimonials, tech stack
-- **Authentication UI** — frontend-only login/register with mocked credential storage (no server, no real security — see note below)
-- **Dashboard** — live stats, weekly activity chart, active goals, in-progress learning, pinned notes, a real working focus timer, quick actions
-- **Goals** — full CRUD, priority/category/deadline, progress slider, filters, completion → XP
-- **Learning Tracker** — courses/videos/books, hours logging, completion rings, filters
-- **Smart Notes** — Markdown editor + live preview, folders, search, pin/unpin
-- **Analytics** — real Recharts visualizations built from your actual stored activity, goals, and learning data
-- **Settings** — theme toggle, JSON export, full data reset, keyboard shortcut reference
-- **Profile** — XP/level system, streak, achievement badges
-- **Command palette (Ctrl/Cmd + K)**, responsive sidebar + mobile bottom nav, dark/light themes, toasts, empty states, 404 page
+</p>
 
-## Scaffolded (Phase 2–4 — routed, not yet data-wired)
+---
 
-Daily Planner, GitHub Dashboard, LeetCode Tracker, and AI Assistant have real nav entries, routes, and a styled "in progress" screen so the app never 404s — but their data layers aren't built yet.
+# ✨ Live Website
 
-## Tech stack
+### 🌍 https://devverse-seven.vercel.app/
 
-React 19 · TypeScript · Vite · Tailwind CSS (+ typography plugin) · Framer Motion · Zustand (persisted to localStorage) · Recharts · React Markdown · React Hot Toast · React Router · Lucide Icons
+> Replace the URL above with your deployed Vercel website.
 
-## Folder structure
+---
 
-```
+# 📸 Preview
+
+<p align="center">
+  <em>A glimpse into the DevVerse experience.</em>
+</p>
+
+<table align="center">
+<tr>
+<td width="50%" align="center">
+
+### 🏠 Landing Page
+
+<img width="1915" height="909" alt="Landing Page" src="https://github.com/user-attachments/assets/ff3121ad-d738-4cff-bf19-32b0d0e15e3a" />
+
+</td>
+
+<td width="50%" align="center">
+
+### 📊 Dashboard
+
+<img width="1915" height="913" alt="Dashboard" src="https://github.com/user-attachments/assets/c6ca1057-855d-4309-a5d6-837aef9d8d4d" />
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" align="center">
+
+### 🎯 Goals
+
+> Screenshot coming soon
+
+</td>
+
+<td width="50%" align="center">
+
+### 📈 Analytics
+
+<img width="1914" height="906" alt="Analytics" src="https://github.com/user-attachments/assets/d5c710e9-102f-4206-8e7b-6e5278336fd5" />
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🌌 About DevVerse
+
+**DevVerse** is an elegant all-in-one developer dashboard designed to help developers stay organised, focused, and productive.
+
+Instead of juggling multiple productivity apps, DevVerse combines everything into one beautiful experience.
+
+✨ No backend.
+
+✨ No database.
+
+✨ No accounts.
+
+✨ No tracking.
+
+Everything is stored locally in your browser using **localStorage**, making the application fast, private, and completely frontend-driven.
+
+---
+
+# ⚡ Features
+
+## 🏠 Landing Experience
+
+* Animated Hero Section
+* Typewriter Text Animation
+* Orbiting Module Illustration
+* Smooth Scroll Animations
+* Testimonials
+* Feature Showcase
+* Modern Glassmorphism UI
+
+---
+
+## 🔐 Authentication
+
+Frontend-only authentication flow including:
+
+* Login
+* Register
+* Protected Routes
+* Persistent Sessions
+* Mock User Storage
+
+> **Note:** Authentication is simulated using browser localStorage and is intended only for demonstration purposes.
+
+---
+
+## 📊 Dashboard
+
+A personalised productivity overview featuring:
+
+* Live Statistics
+* Weekly Activity
+* Focus Timer
+* Goal Progress
+* Learning Summary
+* Pinned Notes
+* Quick Actions
+* Responsive Widgets
+
+---
+
+## 🎯 Goal Management
+
+* Create Goals
+* Edit Goals
+* Delete Goals
+* Categories
+* Priorities
+* Deadlines
+* Progress Slider
+* XP Rewards
+* Smart Filtering
+
+---
+
+## 📚 Learning Tracker
+
+Track everything you're learning.
+
+Supports:
+
+* Courses
+* Books
+* Videos
+* Articles
+
+Features:
+
+* Hours Logged
+* Progress Tracking
+* Completion Rings
+* Filters
+* Learning Analytics
+
+---
+
+## 📝 Smart Notes
+
+Markdown-powered note taking.
+
+Features include:
+
+* Live Markdown Preview
+* Folder Organisation
+* Search
+* Pin Notes
+* Responsive Editor
+
+---
+
+## 📈 Analytics
+
+Interactive visualisations powered by **Recharts**.
+
+Displays:
+
+* Weekly Activity
+* Goal Completion
+* Learning Progress
+* XP Growth
+* Productivity Insights
+
+---
+
+## 👤 Profile
+
+Gamified productivity.
+
+Includes:
+
+* XP System
+* Levels
+* Daily Streak
+* Achievement Badges
+
+---
+
+## ⚙️ Settings
+
+* Theme Toggle
+* Export Data (JSON)
+* Reset All Data
+* Keyboard Shortcuts
+
+---
+
+## ⌨️ Productivity Features
+
+* Command Palette (Ctrl/Cmd + K)
+* Dark Mode
+* Light Mode
+* Toast Notifications
+* Mobile Navigation
+* Responsive Sidebar
+* Beautiful Empty States
+* Custom 404 Page
+
+---
+
+# 🚧 Coming Soon
+
+The following modules are fully routed with polished placeholder screens and will be completed in future phases:
+
+* 📅 Daily Planner
+* 🐙 GitHub Dashboard
+* 💻 LeetCode Tracker
+* 🤖 AI Assistant
+
+---
+
+# 🛠 Tech Stack
+
+| Category         | Technology      |
+| ---------------- | --------------- |
+| Framework        | React 19        |
+| Language         | TypeScript      |
+| Bundler          | Vite            |
+| Styling          | Tailwind CSS    |
+| Animations       | Framer Motion   |
+| Charts           | Recharts        |
+| Routing          | React Router    |
+| State Management | Zustand         |
+| Markdown         | React Markdown  |
+| Icons            | Lucide React    |
+| Notifications    | React Hot Toast |
+
+---
+
+# 📂 Project Structure
+
+```text
 src/
 ├── components/
-│   ├── common/       # AmbientBackground, Logo, ThemeToggle, ComingSoon
-│   ├── layout/        # Sidebar, Topbar, MobileNav, CommandPalette, PageTransition
-│   └── ui/            # Button, Card, Input, Modal, Badge, ProgressBar/Ring, etc.
-├── constants/          # nav.ts, routes.ts, goals.ts
-├── data/               # seed.ts — demo data used on first run
-├── hooks/              # useKeyboardShortcut, useTypewriter, useCountUp, useThemeSync
-├── layouts/            # AppLayout, AuthLayout
-├── pages/              # One file per route
-├── store/              # Zustand slices (auth, goals, learning, notes, activity, ui)
-├── types/              # Shared TypeScript types
-├── utils/              # date, id, xp helpers
+│   ├── common/
+│   ├── layout/
+│   └── ui/
+├── constants/
+├── data/
+├── hooks/
+├── layouts/
+├── pages/
+├── store/
+├── types/
+├── utils/
 ├── App.tsx
 ├── main.tsx
 └── index.css
 ```
 
-## Getting started
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/devverse.git
+```
+
+Move into the project
+
+```bash
+cd devverse
+```
+
+Install dependencies
 
 ```bash
 npm install
-npm run dev       # http://localhost:5173
 ```
+
+Run locally
 
 ```bash
-npm run build     # production build to /dist
-npm run preview   # preview the production build locally
-npm run lint       # ESLint
+npm run dev
 ```
 
-## Pushing to GitHub
+Production build
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit: DevVerse Phase 1"
-git branch -M main
-git remote add origin https://github.com/<your-username>/devverse.git
-git push -u origin main
+npm run build
 ```
 
-## Deployment
+Preview production
 
-### Vercel
+```bash
+npm run preview
+```
 
-1. Push the repo to GitHub.
-2. Go to [vercel.com/new](https://vercel.com/new) and import the repo.
-3. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-4. Deploy — no environment variables needed.
+Lint
 
-### GitHub Pages
+```bash
+npm run lint
+```
 
-1. Install the Pages helper: `npm i -D gh-pages`
-2. In `vite.config.ts`, set `base: '/devverse/'` (or your repo name).
-3. Add to `package.json` scripts: `"deploy": "npm run build && gh-pages -d dist"`
-4. Run `npm run deploy`, then enable Pages in your repo settings pointing at the `gh-pages` branch.
+---
 
-## A note on "authentication"
+# 🌍 Deployment
 
-This is a portfolio/demo project with **no backend**. Login/register store credentials in plain form inside browser localStorage purely to simulate an auth flow — it is not secure and should never be used for real user data or real passwords.
+## Vercel
 
-## Performance notes
+Deploy instantly.
 
-- The production bundle is currently a single ~290 KB gzipped chunk. For further optimization: route-based code-splitting with `React.lazy()` per page, and `build.rollupOptions.output.manualChunks` to split vendor libraries (Recharts, Framer Motion) from app code.
-- Recharts and Framer Motion are the largest dependencies — lazy-load the Analytics route if bundle size becomes a concern.
-- Images/icons are all SVG (Lucide) — no raster asset weight.
+1. Push the repository to GitHub.
+2. Import the repository into Vercel.
+3. Framework Preset → **Vite**
+4. Build Command
 
-## License
+```bash
+npm run build
+```
 
-MIT — do whatever you'd like with this as a portfolio piece or starting point.
+Output Directory
+
+```text
+dist
+```
+
+No environment variables are required.
+
+---
+
+## GitHub Pages
+
+Install:
+
+```bash
+npm i -D gh-pages
+```
+
+Configure Vite
+
+```ts
+base: "/devverse/"
+```
+
+Add deploy script
+
+```json
+"deploy": "npm run build && gh-pages -d dist"
+```
+
+Deploy
+
+```bash
+npm run deploy
+```
+
+---
+
+# 📦 Performance
+
+Current production bundle is approximately **290 KB (gzipped)**.
+
+Potential future improvements:
+
+* Route-based Code Splitting
+* React.lazy()
+* Vendor Chunk Optimisation
+* Lazy-loaded Analytics
+* Dynamic Imports
+
+---
+
+# 🔒 Authentication Disclaimer
+
+This project does **not** include a backend.
+
+User accounts and credentials are stored in browser localStorage solely to demonstrate authentication flows.
+
+**Do not use this implementation in production.**
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, feature requests, and pull requests are always welcome.
+
+If you enjoy this project, consider giving it a ⭐ to support future development.
+
+---
+
+# 📜 License
+
+Licensed under the **MIT License**.
+
+Feel free to use DevVerse as inspiration, a portfolio project, or a foundation for your own developer productivity platform.
+
+---
+
+<p align="center">
+
+### ⭐ If you like this project, don't forget to star the repository!
+
+Made with ❤️ using **React**, **TypeScript**, and **Tailwind CSS**
+
+</p>
