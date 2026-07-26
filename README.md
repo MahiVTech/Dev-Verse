@@ -59,9 +59,12 @@
 <tr>
 <td width="50%" align="center">
 
+<tr>
+<td width="50%" align="center">
+
 ### 🎯 Goals
 
-> Screenshot coming soon
+<img width="1917" height="904" alt="Screenshot 2026-07-26 141655" src="https://github.com/user-attachments/assets/2519b9c0-198d-4f72-ac52-63e444913f29"  />
 
 </td>
 
